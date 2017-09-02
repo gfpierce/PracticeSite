@@ -54,20 +54,43 @@ li a {
     display: block;
     border-radius: 50%;
 }
-
 #about h1 {
     font-family: "Merriweather Sans", serif;
     text-align: center;
 }
-
 #about h2 {
     font-family: "Merriweather Sans", serif;
     text-align: center;
 }
-
 #about p {
     font-family: "Merriweather Sans", serif;
     text-align: center;
-    width: 400px;
+    width: 480px;
+    margin: auto;
+}
+
+/* Projects Section Styling */
+
+#projects h1 {
+    font-family: "Merriweather Sans", serif;
+    text-align: center;
+}
+#projects p {
+    font-family: "Merriweather Sans", serif;
+    text-align: center;
+    width: 480px;
+    margin: auto;
+}
+
+/* Music Section Styling */
+
+#music h1 {
+    font-family: "Merriweather Sans", serif;
+    text-align: center;
+}
+#music p {
+    font-family: "Merriweather Sans", serif;
+    text-align: center;
+    width: 480px;
     margin: auto;
 }
