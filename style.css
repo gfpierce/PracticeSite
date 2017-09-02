@@ -1,8 +1,9 @@
 /* Header Element Styling */
 header {
    /* background-image: url('https://gfpierce.github.io/Durm.jpg');*/
-    background-color: navy;
-    height: 100%;
+    background-color: #0D4FFF;
+    height: 200px;
+    width: 100%
     background-repeat:no-repeat;
     background-position: center;
     position: relative;
@@ -13,14 +14,37 @@ header h1 {
     text-align: center;
     color: white;
     font-family: "Merriweather Sans", serif;
+    padding-top: 60px;
 }
 
-header li {
+header h5 {
     text-align: center;
     font-family: "Merriweather Sans", serif;
     color: white;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 145px;
-    height: 25px;
+}
+
+body {
+    background-color: #F7F9FF;
+}
+
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+li a {
+    color: #555555;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Merriweather Sans", serif;
 }
