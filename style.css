@@ -10,14 +10,22 @@
 
 /* Header Element Styling */
 header {
-    background-image: url('https://gfpierce.github.io/Bean.jpg');
-    height: 75%;
+    background-image: url('https://gfpierce.github.io/Durm.jpg');
+    height: 100%;
     background-repeat:no-repeat;
     background-position: center;
     position: relative;
     background-size: cover;
 }
 
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+.hero-blocks {
+    display: inline-block;
+}
 /*header h1 {
     color: white;
     margin: auto;
