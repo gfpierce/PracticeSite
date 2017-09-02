@@ -1,16 +1,7 @@
-/*.rectangle {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    border: 10px black;
-    padding: 20px 10px;
-}*/
-
 /* Header Element Styling */
 header {
-    background-image: url('https://gfpierce.github.io/Durm.jpg');
+   /* background-image: url('https://gfpierce.github.io/Durm.jpg');*/
+    background-color: navy;
     height: 100%;
     background-repeat:no-repeat;
     background-position: center;
@@ -21,16 +12,15 @@ header {
 header h1 {
     text-align: center;
     color: white;
+    font-family: "Merriweather Sans", serif;
 }
 
-.hero-blocks {
-    display: inline-block;
-}
-/*header h1 {
+header li {
+    text-align: center;
+    font-family: "Merriweather Sans", serif;
     color: white;
-    margin: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 145px;
+    height: 25px;
 }
-
-header h2 {
-    font-size: 20px;
-}*/
