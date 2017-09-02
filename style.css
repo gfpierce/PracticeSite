@@ -1,3 +1,7 @@
+body {
+    background-color: #F7F9FF;
+}
+
 /* Header Element Styling */
 header {
    /* background-image: url('https://gfpierce.github.io/Durm.jpg');*/
@@ -9,24 +13,19 @@ header {
     position: relative;
     background-size: cover;
 }
-
 header h1 {
     text-align: center;
     color: white;
     font-family: "Merriweather Sans", serif;
     padding-top: 60px;
 }
-
 header h5 {
     text-align: center;
     font-family: "Merriweather Sans", serif;
     color: white;
 }
 
-body {
-    background-color: #F7F9FF;
-}
-
+/* Navbar Styling */
 nav {
     text-align: center;
 }
@@ -36,15 +35,39 @@ nav ul {
     padding: 0;
     overflow: hidden;
 }
-
 nav li {
     display: inline;
     padding: 15px;
 }
-
 li a {
     color: #555555;
     text-align: center;
     text-decoration: none;
     font-family: "Merriweather Sans", serif;
+}
+
+/* About Section Styling */
+#about img {
+    width: 240px;
+    height: 240px;
+    margin: 40px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+#about h1 {
+    font-family: "Merriweather Sans", serif;
+    text-align: center;
+}
+
+#about h2 {
+    font-family: "Merriweather Sans", serif;
+    text-align: center;
+}
+
+#about p {
+    font-family: "Merriweather Sans", serif;
+    text-align: center;
+    width: 400px;
+    margin: auto;
 }
