@@ -1,99 +1,112 @@
-body {
-    background-color: #F7F9FF;
+/* Color Palette
+White/Background: #ecf0f1
+Black/Text: #111 
+Light Relative: #99cbed
+Base Color: #1f74ac
+Dark Relative: #0f3a56*/
+
+/* Universal Styling */
+html {
+    font-family: "Merriweather Sans", Arial;
+    font-size: 16px;
+    background-color: #ecf0f1;
+    text-align: center;
 }
 
-/* Header Element Styling */
-header {
-   /* background-image: url('https://gfpierce.github.io/Durm.jpg');*/
-    background-color: #0D4FFF;
-    height: 200px;
-    width: 100%
-    background-repeat:no-repeat;
-    background-position: center;
-    position: relative;
-    background-size: cover;
+body {
+    color: #191919;
 }
-header h1 {
-    text-align: center;
-    color: white;
-    font-family: "Merriweather Sans", serif;
-    padding-top: 60px;
+
+h1 {
+    font-size: 2rem;
 }
-header h5 {
-    text-align: center;
-    font-family: "Merriweather Sans", serif;
-    color: white;
+
+h5 {
+    font-size: 1.125rem;
+}
+
+p {
+    font-size: 1rem;
+    width: 75%;
 }
 
 /* Navbar Styling */
-nav {
-    text-align: center;
-}
+
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
 }
+
 nav li {
     display: inline;
     padding: 15px;
 }
+
 li a {
-    color: #555555;
-    text-align: center;
+    color: #2c3e50;
     text-decoration: none;
-    font-family: "Merriweather Sans", serif;
+}
+
+/* Header Element Styling */
+
+header {
+   /* background-image: url('https://gfpierce.github.io/Durm.jpg');*/
+    background-color: #1f74ac;
+    height: auto;
+    width: 100%
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+header h1 {
+    color: #fff;
+    padding-top: 3.125%;
+    padding-bottom: 
+}
+
+header h5 {
+    color: #fff;
+    padding-bottom: 3.125%; 
 }
 
 /* About Section Styling */
-#about img {
-    width: 240px;
-    height: 240px;
+
+#about {
     margin: 40px auto;
+}
+
+#about img {
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 240px;
+    max-height: 240px;
+    width: 50%;
+    height: auto;
+    margin: auto;
     display: block;
     border-radius: 50%;
 }
-#about h1 {
-    font-family: "Merriweather Sans", serif;
-    text-align: center;
-}
-#about h2 {
-    font-family: "Merriweather Sans", serif;
-    text-align: center;
-}
+
 #about p {
-    font-family: "Merriweather Sans", serif;
-    text-align: center;
-    width: 480px;
     margin: auto;
 }
 
 /* Projects Section Styling */
 
-#projects h1 {
-    font-family: "Merriweather Sans", serif;
-    text-align: center;
-}
 #projects p {
-    font-family: "Merriweather Sans", serif;
-    text-align: center;
-    width: 480px;
     margin: auto;
 }
 
 /* Music Section Styling */
 
-#music h1 {
-    font-family: "Merriweather Sans", serif;
-    text-align: center;
-}
 #music p {
-    font-family: "Merriweather Sans", serif;
-    text-align: center;
-    width: 480px;
     margin: auto;
 }
+
 #music {
     margin-bottom: 80px;
 }
