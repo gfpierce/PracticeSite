@@ -103,10 +103,30 @@ header h5 {
 
 /* Music Section Styling */
 
+#music {
+    margin-bottom: 80px;
+}
+
 #music p {
     margin: auto;
 }
 
-#music {
-    margin-bottom: 80px;
+/* Code for videoWrapper class found here:
+(https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
+Video takes up 100% of container still. Possible solution in above link. Haven't read it all yet. Just what I understand so far (i.e. minimal jQuery). */
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
 }
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive Screen Size Rules */
