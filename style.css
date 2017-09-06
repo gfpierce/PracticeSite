@@ -58,8 +58,7 @@ header {
    /* background-image: url('https://gfpierce.github.io/Durm.jpg');*/
     background-color: #1f74ac;
     height: auto;
-    width: 100%
-    background-repeat: no-repeat;
+    width: 100%;
     background-position: center;
     position: relative;
     background-size: cover;
@@ -73,6 +72,16 @@ header h1 {
 header h5 {
     color: #fff;
     padding-bottom: 3.125%; 
+}
+
+/* Progress Section Styling */
+
+#progress {
+    margin: auto;
+}
+
+#progress p {
+    margin: auto;
 }
 
 /* About Section Styling */
@@ -104,10 +113,6 @@ header h5 {
 }
 
 /* Music Section Styling */
-
-#music {
-
-}
 
 #music p {
     margin: auto;
