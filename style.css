@@ -28,9 +28,9 @@ h5 {
 }
 
 p {
-    font-size: 1rem;
-    width: 66%;
-    line-height: 150%;
+    font-size: 1.25rem;
+    width: 80%;
+    font-weight: 100;
 }
 
 /* Navbar Styling */
@@ -119,18 +119,18 @@ Video takes up 100% of container still. Possible solution in above link. Haven't
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 40.48%;
     height: 0;
     padding-top: 20px;
     overflow: hidden;
+    padding-bottom: 59.43%;
 }
 
 .videoWrapper iframe {
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
-    margin: auto;
+    /*width: 100%;
+    height: 100%;*/
 }
 
 /* Responsive Screen Size-Based Rules */
@@ -141,10 +141,26 @@ Video takes up 100% of container still. Possible solution in above link. Haven't
     }
 }*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
     p {
-        font-size: 1.25rem;
-        width: 80%;
-        font-weight: 100;
+        font-size: 1rem;
+        width: 66%;
+        line-height: 150%;
+    }
+
+    .videoWrapper {
+        padding-bottom: 40.48%;
+    }
+
+    .videoWrapper iframe {
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .videoWrapper iframe {
+        width: 100%;
+        height: 100%;
     }
 }
